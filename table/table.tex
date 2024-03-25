@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{booktabs} % Für schönere Tabellen
+\usepackage{array} % Für die Definition der Spaltenbreite
+
+\begin{document}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{p{5cm}p{5cm}} % Reduzierte Breite der Spalten auf 5cm
+        \toprule
+        \textbf{Vorteile} & \textbf{Nachteile} \\
+        \midrule
+        Wiederverwendung von Implementierung und Schnittstellen (aller Oberklassen) & 
+        Erhöhte Komplexität (Klassenhierarchie ist kein Baum)\newline \\
+         & Mehrdeutigkeit (z.B. zwei Oberklassen definieren die gleiche Methode) \newline \\
+         & Zwei Oberklassen erben von einer gemeinsamen Oberklasse und überschreiben die
+         gleiche(n) Methode(n) \newline \\
+        \bottomrule
+    \end{tabular}
+    \caption{Vor- und Nachteile einer bestimmten Sache}
+    \label{tab:beispiel}
+\end{table}
+
+\end{document}
