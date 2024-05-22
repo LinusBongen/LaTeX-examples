@@ -1,0 +1,66 @@
+\documentclass[12pt,listsleft]{scrartcl}                                % Dokumentenklasse: Artikel mit 12pt Schriftgröße und Listen links ausgerichtet
+\usepackage{scrlayer-scrpage}                                           % Kopf- und Fußzeilen
+\usepackage[left=2cm, right=3cm, top=2cm, bottom=2.5cm]{geometry}       % Seitenränder
+\usepackage{newtxtext}                                                  % Times-ähnliche Schrift für den Text
+\usepackage{newtxmath}                                                  % Times-ähnliche Schrift für die Mathematik
+\usepackage[T1]{fontenc}                                                % Zeichenkodierung für die Ausgabe
+\usepackage[ngerman]{babel}                                             % Deutsche Sprachanpassungen
+\usepackage{textcomp}                                                   % Zusätzliche Textsymbole
+\usepackage[utf8]{inputenc}                                             % Eingabekodierung (UTF-8)
+\usepackage{amsfonts}                                                   % Mathematische Schriftarten
+\usepackage[style=german,german=quotes]{csquotes}                       % Anführungszeichen-Stil für Deutsch
+\usepackage[backend=biber, style=alphabetic]{biblatex}                  % Bibliographie- und Zitationsstil
+\usepackage{graphicx}                                                   % Grafiken einfügen
+\usepackage{tocbasic}                                                   % Anpassungen für das Inhaltsverzeichnis
+\usepackage{acronym}                                                    % Abkürzungsverzeichnis
+\usepackage{amsmath}                                                    % Erweiterte mathematische Funktionen
+
+\addbibresource{literatur.bib}                                          % Laden der Bibliographie-Datei
+
+%%%% Kopfzeilen einrichten %%%%
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\automark{section}
+\ohead{\headmark}                                                       % Kapiteltitel auf der rechten Seite
+\ofoot*{\pagemark}                                                      % Seitenzahl auf der rechten Fußzeile
+\KOMAoptions{headsepline=0.5pt}                                         % Horizontale Linie unter der Kopfzeile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagenumbering{Roman}                                                   % Seitenzahlen in römischen Zahlen
+
+\input{titlepage.tex}                                                   % Einbinden der Titelseite
+
+\clearpage
+
+\tableofcontents                                                        % Inhaltsverzeichnis
+\clearpage
+
+\listoffigures                                                          % Abbildungsverzeichnis
+\clearpage
+
+\listoftables                                                           % Tabellenverzeichnis
+\clearpage
+
+\section*{Glossar}                                                      % Glossar (Abkürzungsverzeichnis)
+\begin{acronym}
+    \acro{AI}{Künstliche Intelligenz}
+    \acro{ML}{Maschinelles Lernen}
+\end{acronym}
+
+\clearpage
+
+\pagenumbering{arabic}                                                  % Seitenzahlen in arabischen Zahlen
+
+\input{Einleitung}                                                      % Einbindung der Einleitung
+\clearpage
+\input{Hauptteil}                                                       % Einbindung des Hauptteils
+\clearpage
+\input{Schluss}                                                         % Einbindung des Schlussteils
+
+\clearpage
+
+\printbibliography                                                      % Ausgabe des Literaturverzeichnisses
+
+\end{document}

@@ -1,0 +1,66 @@
+\documentclass[12pt,listsleft]{scrartcl}                                % Document class: Article with 12pt font size and lists left aligned
+\usepackage{scrlayer-scrpage}                                           % Header and footer
+\usepackage[left=2cm, right=3cm, top=2cm, bottom=2.5cm]{geometry}       % Page margins
+\usepackage{newtxtext}                                                  % Times-like font for text
+\usepackage{newtxmath}                                                  % Times-like font for math
+\usepackage[T1]{fontenc}                                                % Output font encoding
+\usepackage[english]{babel}                                              % English language adjustments
+\usepackage{textcomp}                                                   % Additional text symbols
+\usepackage[utf8]{inputenc}                                             % Input encoding (UTF-8)
+\usepackage{amsfonts}                                                   % Mathematical fonts
+\usepackage[style=british,english=british]{csquotes}                    % Quotation style for English
+\usepackage[backend=biber, style=alphabetic]{biblatex}                  % Bibliography and citation style
+\usepackage{graphicx}                                                   % Insert graphics
+\usepackage{tocbasic}                                                   % Table of contents adjustments
+\usepackage{acronym}                                                    % List of acronyms
+\usepackage{amsmath}                                                    % Enhanced mathematical functions
+
+\addbibresource{literature.bib}                                         % Load bibliography file
+
+%%%% Setup headers %%%%
+\pagestyle{scrheadings}
+\clearpairofpagestyles
+\automark{section}
+\ohead{\headmark}                                                       % Chapter title on the right side
+\ofoot*{\pagemark}                                                      % Page number on the right footer
+\KOMAoptions{headsepline=0.5pt}                                         % Horizontal line below header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\pagenumbering{Roman}                                                   % Page numbers in Roman numerals
+
+\input{titlepage.tex}                                                   % Include title page
+
+\clearpage
+
+\tableofcontents                                                        % Table of contents
+\clearpage
+
+\listoffigures                                                          % List of figures
+\clearpage
+
+\listoftables                                                           % List of tables
+\clearpage
+
+\section*{Glossary}                                                     % Glossary (list of abbreviations)
+\begin{acronym}
+    \acro{AI}{Artificial Intelligence}
+    \acro{ML}{Machine Learning}
+\end{acronym}
+
+\clearpage
+
+\pagenumbering{arabic}                                                  % Page numbers in Arabic numerals
+
+\input{introduction.tex}                                                    % Include introduction
+\clearpage
+\input{mainBody.tex}                                                        % Include main body
+\clearpage
+\input{conclusion.tex}                                                      % Include conclusion
+
+\clearpage
+
+\printbibliography                                                      % Print bibliography
+
+\end{document}
