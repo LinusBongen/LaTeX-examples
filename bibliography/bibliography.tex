@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\begin{filecontents}{references.bib}
+@online{wikibooks,
+    author = {Wikibooks},
+    title = {LaTeX/Source Code Listings},
+    year = {2024},
+    url = {https://en.wikibooks.org/wiki/LaTeX/Source_Code_Listings}
+}
+
+@book{latexcompanion,
+    author = {Michel Goossens and Frank Mittelbach and Alexander Samarin},
+    title = {The \LaTeX\ Companion},
+    publisher = {Addison-Wesley},
+    address = {Reading, MA},
+    year = {1994}
+}
+\end{filecontents}
+
+\usepackage{url}
+
+\begin{document}
+
+Eine nützliche Ressource für LaTeX ist \cite{wikibooks}. Ein klassisches Buch über LaTeX ist \cite{latexcompanion}.
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
