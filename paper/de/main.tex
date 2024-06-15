@@ -15,7 +15,7 @@
 \usepackage{acronym}                                                    % Abkürzungsverzeichnis
 \usepackage{amsmath}                                                    % Erweiterte mathematische Funktionen
 \usepackage{hyperref}                                                   % hyperref-Paket laden, um Hyperlinks zu aktivieren
-
+\usepackage{cleveref}                                                   % Paket zum intelligenten Referenzieren
 \addbibresource{literatur.bib}                                          % Laden der Bibliographie-Datei
 
 %%%% Kopfzeilen einrichten %%%%
@@ -26,6 +26,17 @@
 \ofoot*{\pagemark}                                                      % Seitenzahl auf der rechten Fußzeile
 \KOMAoptions{headsepline=0.5pt}                                         % Horizontale Linie unter der Kopfzeile
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%% Einstellungen für cleveref auf Deutsch setzen %%%%%
+\addto\extrasngerman{%
+  \renewcommand{\figurename}{Abbildung}%
+  \renewcommand{\tablename}{Tabelle}%
+  \crefname{figure}{Abbildung}{Abbildungen}%
+  \Crefname{figure}{Abbildung}{Abbildungen}%
+  \crefname{table}{Tabelle}{Tabellen}%
+  \Crefname{table}{Tabelle}{Tabellen}%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
