@@ -16,7 +16,7 @@
 \usepackage{amsmath}                                                    % Erweiterte mathematische Funktionen
 \usepackage{hyperref}                                                   % hyperref-Paket laden, um Hyperlinks zu aktivieren
 \usepackage{cleveref}                                                   % Paket zum intelligenten Referenzieren
-\addbibresource{literatur.bib}                                          % Laden der Bibliographie-Datei
+\addbibresource{Kapitel/literatur.bib}                                          % Laden der Bibliographie-Datei
 
 %%%% Kopfzeilen einrichten %%%%
 \pagestyle{scrheadings}
@@ -42,7 +42,7 @@
 
 \pagenumbering{Roman}                                                   % Seitenzahlen in römischen Zahlen
 
-\input{titlepage.tex}                                                   % Einbinden der Titelseite
+\input{Kapitel/titlepage.tex}                                                   % Einbinden der Titelseite
 
 \clearpage
 
@@ -57,18 +57,17 @@
 
 \markboth{Glossar}{Glossar} % Setzt "Glossar" in beide Kopfzeilen
 \section*{Glossar}                                                      % Glossar (Abkürzungsverzeichnis)
-\input{abbreviations.tex}
+\input{Kapitel/abbreviations.tex}
 \clearpage
 
 \pagenumbering{arabic}                                                  % Seitenzahlen in arabischen Zahlen
 
-\justify                                                                % Aktiviere Blocksatz
 
-\input{Einleitung}                                                      % Einbindung der Einleitung
+\input{Kapitel/Einleitung}                                                      % Einbindung der Einleitung
 \clearpage
-\input{Hauptteil}                                                       % Einbindung des Hauptteils
+\input{Kapitel/Hauptteil}                                                       % Einbindung des Hauptteils
 \clearpage
-\input{Schluss}                                                         % Einbindung des Schlussteils
+\input{Kapitel/Schluss}                                                         % Einbindung des Schlussteils
 
 \clearpage
 
