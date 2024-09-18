@@ -1,5 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
-\contentsline {section}{\numberline {2}Hauptteil}{2}{section.2}%
-\contentsline {section}{\numberline {3}Conclusion}{3}{section.3}%
-\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
