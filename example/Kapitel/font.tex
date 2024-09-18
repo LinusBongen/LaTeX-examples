@@ -1,0 +1,92 @@
+\section{Font}
+
+    \subsection{Darstellungen}
+    Um verschiedene Darstellungen für die Texte zu verwenden, nutze folgende Packages:
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \texttt{\textbackslash usepackage\{xcolor\}} & Paket für Farben \\
+        \texttt{\textbackslash usepackage\{ulem\}} & Paket für verschiedene Unterstreichungsformatierungen \\
+        \texttt{\textbackslash usepackage\{csquotes\}} & Paket für Zitate und Anführungszeichen \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \textbf{Beispiel} & \textbf{Code} \\
+        \hline
+        \textbf{Fetter Text} & \texttt{\textbackslash textbf\{Fetter Text\}} \\ 
+        \textit{Kursiver Text} & \texttt{\textbackslash textit\{Kursiver Text\}} \\
+        \underline{Unterstrichener Text} & \texttt{\textbackslash underline\{Unterstrichener Text\}} \\
+        \sout{Durchgestrichener Text} & \texttt{\textbackslash sout\{Durchgestrichener Text\}} \\
+        {\large Großer Text} & \texttt{\textbackslash large Großer Text} \\
+        {\small Kleiner Text} & \texttt{\textbackslash small Kleiner Text} \\
+        \textsuperscript{Hochgestellter Text} & \texttt{\textbackslash textsuperscript\{Hochgestellter Text\}} \\
+        \textsubscript{Tiefgestellter Text} & \texttt{\textbackslash textsubscript\{Tiefgestellter Text\}} \\
+        {\sffamily Sans Serif} & \texttt{\{sffamily Sans Serif\}} \\
+        {\ttfamily Typewriter} & \texttt{\{ttfamily Typewriter\}} \\
+        {\rmfamily Roman} & \texttt{\{rmfamily Roman\}} \\
+        \textcolor{blue}{Blauer Text} & \texttt{\textbackslash textcolor\{blue\}\{Blauer Text\}} \\
+        \textquote{Anführungszeichen} & \texttt{\textbackslash textquote\{Anführungszeichen\}} \\
+        \hline
+    \end{tabular}
+
+    \subsection{Abkürzungen}
+
+    \begin{verbatim}
+\begin{acronym}
+    \acro{AI}{Künstliche Intelligenz}
+\end{acronym}        
+    \end{verbatim}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \textbf{Beispiel} & \textbf{Code} \\
+        \hline
+        \ac{AI} & \texttt{\textbackslash ac\{AI\}} \\ 
+        \ac*{AI} & \texttt{\textbackslash ac*\{AI\}} \\ 
+        \hline
+    \end{tabular}
+
+
+    \subsection{Link}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \texttt{\textbackslash usepackage\{hyperref\}} & Einfüpgen von Links \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \textbf{Beispiel} & \textbf{Code} \\
+        \hline
+        \href{https://openai.com}{OpenAI Website} & \texttt{\textbackslash href\{https://openai.com\}\{OpenAI Website\}} \\ 
+        \hline
+    \end{tabular}
+
+    \subsection{Zitieren}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \texttt{\textbackslash usepackage\{url\}} & Einfügen von URL \\
+        \texttt{\textbackslash bibliographystyle\{plain\}} &  \\
+        \texttt{\textbackslash bibliography\{references\}} & Einfügen von bibliography \\
+        \hline
+    \end{tabular}
+
+    \vspace{0.5cm}
+
+    \begin{tabular}{|p{0.4\textwidth}|p{0.6\textwidth}|}
+        \hline
+        \textbf{Beispiel} & \textbf{Code} \\
+        \hline
+        \cite{musterbuch} & \texttt{\textbackslash cite\{musterbuch\}} \\ 
+        \hline
+    \end{tabular}   
+    
+

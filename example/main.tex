@@ -17,6 +17,23 @@
 \usepackage{hyperref}                                                   % hyperref-Paket laden, um Hyperlinks zu aktivieren
 \usepackage{cleveref}                                                   % Paket zum intelligenten Referenzieren
 \usepackage{lipsum}                                                     % Einfuegen von zufälligen text 
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{ulem}                                                       % Paket für verschiedene Unterstreichungsformatierungen
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage{booktabs} % Für schönere Tabellen
+\usepackage{array} % Für die Definition der Spaltenbreite
+\usepackage{listings}  % Paket für die Darstellung von Code
+
+\usepackage{graphicx} % Für die Nutzung von \textwidth
+\usepackage{array}    % Für flexible Tabellen
+\usepackage{ulem}     % Für Textformatierungen wie durchgestrichener Text
+\usepackage{xcolor}   % Für farbigen Text
+\usepackage{csquotes} % Für Zitate und Anführungszeichen
+
+\usepackage{enumitem}
+
 \setlength{\parindent}{0pt}                                             % Entfernt Einrückung global
 \addbibresource{Kapitel/literatur.bib}                                          % Laden der Bibliographie-Datei
 
@@ -38,6 +55,34 @@
   \crefname{table}{Tabelle}{Tabellen}%
   \Crefname{table}{Tabelle}{Tabellen}%
 }
+
+%%%%% Code %%%%%
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codeorange}{rgb}{1,0.49,0}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.96}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegray},
+    keywordstyle=\color{codeorange},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2,
+    xleftmargin=10pt,
+}
+\lstset{style=mystyle}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -65,12 +110,21 @@
 \pagenumbering{arabic}                                                  % Seitenzahlen in arabischen Zahlen
 
 
-\input{Kapitel/Einleitung}                                                      % Einbindung der Einleitung
-\clearpage
-\input{Kapitel/Hauptteil}                                                       % Einbindung des Hauptteils
-\clearpage
-\input{Kapitel/Schluss}                                                         % Einbindung des Schlussteils
 
+\clearpage
+\input{Kapitel/font}                                                         % Einbindung des Schlussteils
+\clearpage
+\input{Kapitel/Header}                                                         % Einbindung des Schlussteils
+\clearpage
+\input{Kapitel/Listing}                                                         % Einbindung des Schlussteils
+\clearpage
+\input{Kapitel/Picture}                                                         % Einbindung des Schlussteils
+\clearpage
+\input{Kapitel/Math}     
+\clearpage
+\input{Kapitel/Code}     
+\clearpage
+\input{Kapitel/Tabelle}     
 \clearpage
 
 \printbibliography                                                      % Ausgabe des Literaturverzeichnisses

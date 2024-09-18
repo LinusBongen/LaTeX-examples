@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.17)  17 SEP 2024 20:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.17)  18 SEP 2024 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/linus/GitHub/LaTeX-examples/paper/de/main.tex
-(c:/Users/linus/GitHub/LaTeX-examples/paper/de/main.tex
+**c:/Users/linus/GitHub/LaTeX-examples/example/main.tex
+(c:/Users/linus/GitHub/LaTeX-examples/example/main.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrartcl.cls
@@ -864,55 +864,126 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count439
 \l__lipsum_a_int=\count440
 \l__lipsum_b_int=\count441
- (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+ (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count442
+\lst@gtempboxa=\box57
+\lst@token=\toks33
+\lst@length=\count443
+\lst@currlwidth=\dimen180
+\lst@column=\count444
+\lst@pos=\count445
+\lst@lostspace=\dimen181
+\lst@width=\dimen182
+\lst@newlines=\count446
+\lst@lineno=\count447
+\lst@maxwidth=\dimen183
+ (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count448
+\lst@skipnumbers=\count449
+\lst@framebox=\box58
+) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
+))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+ (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box59
+\UL@hyphenbox=\box60
+\UL@skip=\skip91
+\UL@hook=\toks34
+\UL@height=\dimen184
+\UL@pe=\count450
+\UL@pixel=\dimen185
+\ULC@box=\box61
+Package: ulem 2019/11/18
+\ULdepth=\dimen186
+) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen187
+\lightrulewidth=\dimen188
+\cmidrulewidth=\dimen189
+\belowrulesep=\dimen190
+\belowbottomsep=\dimen191
+\aboverulesep=\dimen192
+\abovetopsep=\dimen193
+\cmidrulesep=\dimen194
+\cmidrulekern=\dimen195
+\defaultaddspace=\dimen196
+\@cmidla=\count451
+\@cmidlb=\count452
+\@aboverulesep=\dimen197
+\@belowrulesep=\dimen198
+\@thisruleclass=\count453
+\@lastruleclass=\count454
+\@thisrulewidth=\dimen199
+) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen256
+\ar@mcellbox=\box62
+\extrarowheight=\dimen257
+\NC@list=\toks35
+\extratabsurround=\skip92
+\backup@length=\skip93
+\ar@cellbox=\box63
+) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip94
+\enit@outerparindent=\dimen258
+\enit@toks=\toks36
+\enit@inbox=\box64
+\enit@count@id=\count455
+\enitdp@description=\count456
+)
 1: section
-LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 43.
+LaTeX Font Info:    Trying to load font information for T1+ntxtlf on input line 88.
 (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtlf.fd
 File: t1ntxtlf.fd 2021/05/24 v1.1 font definition file for T1/ntx/tlf
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 43.
+(Font)              scaled to size 12.0pt on input line 88.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 43.
-LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 43.
+LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 88.
+LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line 88.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxmi.fd
 File: omlntxmi.fd 2015/08/25 Fontinst v1.933 font definitions for OML/ntxmi.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 43.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 88.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 88.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 43.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 88.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 88.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 43.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 43.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 88.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 88.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -950,27 +1021,27 @@ LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count442
-\scratchdimen=\dimen180
-\scratchbox=\box57
-\nofMPsegments=\count443
-\nofMParguments=\count444
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count445
-\MPscratchDim=\dimen181
-\MPnumerator=\count446
-\makeMPintoPDFobject=\count447
-\everyMPtoPDFconversion=\toks34
+\scratchcounter=\count457
+\scratchdimen=\dimen259
+\scratchbox=\box65
+\nofMPsegments=\count458
+\nofMParguments=\count459
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count460
+\MPscratchDim=\dimen260
+\MPnumerator=\count461
+\makeMPintoPDFobject=\count462
+\everyMPtoPDFconversion=\toks38
 ) (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count448
-\c@mv@boldtabular=\count449
-LaTeX Info: Command `\dddot' is already robust on input line 43.
-LaTeX Info: Command `\ddddot' is already robust on input line 43.
+\c@mv@tabular=\count463
+\c@mv@boldtabular=\count464
+LaTeX Info: Command `\dddot' is already robust on input line 88.
+LaTeX Info: Command `\ddddot' is already robust on input line 88.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
@@ -993,9 +1064,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 43.
-Package biblatex Info: Reference segment=0 on input line 43.
-Package hyperref Info: Link coloring OFF on input line 43.
+Package biblatex Info: Reference section=0 on input line 88.
+Package biblatex Info: Reference segment=0 on input line 88.
+Package hyperref Info: Link coloring OFF on input line 88.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -1007,114 +1078,118 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 43.
+(scrartcl)           before \begin{document} on input line 88.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
-\BKM@id=\count450
-)) (Kapitel/titlepage.tex
+\BKM@id=\count465
+))
+\c@lstlisting=\count466
+Package tocbasic Info: setting babel extension for `lol' on input line 88.
+\scr@dte@lstlisting@maxnumwidth=\skip95
+ (Kapitel/titlepage.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 20.74pt on input line 9.
+(Font)              scaled to size 20.74pt on input line 7.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 20.74pt on input line 9.
+(Font)              scaled to size 20.74pt on input line 7.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 17.28pt on input line 10.
+(Font)              scaled to size 17.28pt on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 17.28pt on input line 10.
+(Font)              scaled to size 17.28pt on input line 8.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 24.88pt on input line 12.
+(Font)              scaled to size 24.88pt on input line 10.
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 24.88pt on input line 12.
-LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 17.
+(Font)              scaled to size 24.88pt on input line 10.
+LaTeX Font Info:    Trying to load font information for OT1+minntx on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 17.
+(Font)              scaled to size 12.0pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 17.
+(Font)              scaled to size 8.8pt on input line 15.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 17.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+(Font)              scaled to size 6.6pt on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 18.
+(Font)              scaled to size 12.0pt on input line 16.
 
 
 [1
 
 {C:/Users/linus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.enc}])
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 51.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 96.
  (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 11.28003pt on input line 51.
+(Font)              scaled to size 11.28003pt on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 11.28003pt on input line 51.
+(Font)              scaled to size 11.28003pt on input line 96.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 16.24324pt on input line 51.
+(Font)              scaled to size 16.24324pt on input line 96.
  (main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
@@ -1122,7 +1197,7 @@ LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
 
 
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
-(Font)              scaled to size 12.0pt on input line 52.
+(Font)              scaled to size 12.0pt on input line 97.
 [2{C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ecth-tlf.enc}
 
 {C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}] (main.lof)
@@ -1141,48 +1216,151 @@ LaTeX Font Info:    Font shape `T1/ntxtlf/m/sl' will be
 
 [4
 
-] (Kapitel/abbreviations.tex
-
-LaTeX Warning: Hyper reference `acro:AI' on page V undefined on input line 4.
-
-
-LaTeX Warning: Hyper reference `acro:AI' on page V undefined on input line 4.
-
-
-LaTeX Warning: Hyper reference `acro:ML' on page V undefined on input line 5.
-
-
-LaTeX Warning: Hyper reference `acro:ML' on page V undefined on input line 5.
-
-)
+] (Kapitel/abbreviations.tex)
 
 [5
 
-] (Kapitel/Einleitung.tex)
+] (Kapitel/font.tex
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 13.53603pt on input line 3.
+LaTeX Font Info:    Trying to load font information for T1+ntxtt on input line 8.
+ (C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/newtx\t1ntxtt.fd
+File: t1ntxtt.fd 2012/04/20 v3.1
+)
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 12.0pt on input line 8.
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 6--13
+[][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/it' will be
+(Font)              scaled to size 12.0pt on input line 21.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 14.4pt on input line 24.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.95pt on input line 25.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 8.8pt on input line 26.
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 16--35
+[][] 
+ []
+
+Package acronym Info: Label `acro:AI' newly defined as it shall be overridden
+although it is yet undefined on input line 48.
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 44--52
+[][] 
+ []
+
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 56--61
+[] 
+ []
+
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 64--71
+[][] 
+ []
+
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 74--81
+[] 
+ []
+
+
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 84--91
+[][] 
+ []
+
+)
 
 [1
 
-] (Kapitel/Hauptteil.tex)
+
+] (Kapitel/Header.tex
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 6--11
+[][] 
+ []
+
+)
 
 [2
 
-] (Kapitel/Schluss.tex)
+] (Kapitel/Listing.tex
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 5--10
+[] 
+ []
+
+)
 
 [3
 
+] (Kapitel/Picture.tex
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 3--8
+[] 
+ []
+
+<pics/screenshot.png, id=98, 743.02594pt x 562.35094pt>
+File: pics/screenshot.png Graphic file (type png)
+<use pics/screenshot.png>
+Package pdftex.def Info: pics/screenshot.png  used on input line 20.
+(pdftex.def)             Requested size: 227.62209pt x 172.2676pt.
+)
+
+[4
+
+ <./pics/screenshot.png>] (Kapitel/Math.tex
+LaTeX Font Info:    Font shape `T1/ntxtt/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 10.0pt on input line 15.
+LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
+(Font)              scaled to size 6.0pt on input line 15.
+)
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 5--124
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--124
+
+ []
+
+
+
+[5
+
+{C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ot1-tlf.enc}] (Kapitel/Code.tex
+Overfull \hbox (168.45462pt too wide) in paragraph at lines 45--45
+[]\T1/ntxtt/m/n/12 \begin{lstlisting}[language=Java, caption={Main-Methode},label={lst:java_example}, mathescape=true][] 
+ []
+
+(C:\Users\linus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/05/25 1.10b listings language file
+))
+
+[6
+
+] (Kapitel/Tabelle.tex
+Overfull \hbox (25.19997pt too wide) in paragraph at lines 3--9
+[] 
+ []
+
+)
+
+[7
+
 ]
 
-LaTeX Warning: Empty bibliography on input line 76.
+[8
 
-(main.aux)
+] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1190,17 +1368,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29714 strings out of 473899
- 560753 string characters out of 5726500
- 1626604 words of memory out of 5000000
- 52183 multiletter control sequences out of 15000+600000
- 606151 words of font info for 79 fonts, out of 8000000 for 9000
+ 32417 strings out of 473899
+ 601662 string characters out of 5726500
+ 1690216 words of memory out of 5000000
+ 54783 multiletter control sequences out of 15000+600000
+ 632031 words of font info for 101 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11039b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
-Output written on main.pdf (8 pages, 141359 bytes).
+ 108i,19n,107p,11038b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txexs.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txmiaX.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmb.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmr.pfb><C:/Users/linus/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/ztmri.pfb>
+Output written on main.pdf (13 pages, 298958 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 61 named destinations out of 1000 (max. 500000)
+ 134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

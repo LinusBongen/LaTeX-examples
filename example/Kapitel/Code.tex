@@ -1,4 +1,6 @@
-\documentclass{article}
+\section{Code}
+
+\begin{verbatim}
 \usepackage{listings}
 \usepackage{xcolor}
 
@@ -28,8 +30,19 @@
 }
 
 \lstset{style=mystyle}
+\end{verbatim}
 
-\begin{document}
+
+
+\begin{verbatim}
+\begin{lstlisting}[language=Java, caption={Main-Methode},label={lst:java_example}, mathescape=true]
+    public class Auto {
+        public static void main(String[] args) {
+            // ...Anweisung
+        }
+    }
+\end{lstlisting}
+\end{verbatim}
 
 \begin{lstlisting}[language=Java, caption={Main-Methode},label={lst:java_example}, mathescape=true]
     public class Auto {
@@ -38,16 +51,3 @@
         }
     }
 \end{lstlisting}
-
-\textbf{Ausgabe:} \newline
-\begin{verbatim}
-    Tiere machen Geräusche
-    Hund bellt
-\end{verbatim}
-
-\begin{enumerate}
-    \item abstract: Deklaration einer abstrakten Klassen oder Methode.
-    \item abstrekte Methode: endet mit ; und nicht mit Klammern.
-\end{enumerate}
-
-\end{document}

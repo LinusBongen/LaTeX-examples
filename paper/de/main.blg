@@ -1,15 +1,9 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[1] Config.pm:310> INFO - Logfile is 'main.blg'
-[566] biber-MSWIN64:340> INFO - === 
-[750] Biber.pm:419> INFO - Reading 'main.bcf'
-[987] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[1025] Biber.pm:4419> INFO - Processing section 0
-[1126] Biber.pm:4610> INFO - Looking for bibtex file 'Kapitel/literatur.bib' for section 0
-[1227] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1247] bibtex.pm:1519> INFO - Found BibTeX data source 'Kapitel/literatur.bib'
-[1403] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1404] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1404] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[1404] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[1406] bbl.pm:660> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1407] bbl.pm:763> INFO - Output to main.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'main.blg'
+[110] biber-MSWIN64:340> INFO - === 
+[144] Biber.pm:420> INFO - Reading 'main.bcf'
+[259] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[275] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[275] bbl.pm:779> INFO - Output to main.bbl
+[276] Biber.pm:131> WARN - The file 'main.bcf' does not contain any citations!
+[276] Biber.pm:133> INFO - WARNINGS: 1
