@@ -1,0 +1,51 @@
+\documentclass[fontsize=12pt,
+    bibliography=totoc,
+    listof=totoc,
+    listof=entryprefix,
+    toc=sectionentrywithdots,
+    twoside=false,
+    ]{scrartcl}
+
+\usepackage[T1]{fontenc}                                                % Zeichenkodierung für die Ausgabe
+\usepackage[utf8]{inputenc}                                             % Europäischen Zeichen
+\usepackage[ngerman]{babel}                                             % deutsche Silben etc. 
+\usepackage[a4paper,
+            left=2cm,           % 3 cm
+            right=3cm,          % 2,5 cm
+            top=2cm,            % 2 cm                                  % Seitenränder
+            bottom=2.5cm        % 2 cm
+            ]{geometry}
+\usepackage{hyperref}                                                   % Einfueghen von referenzen
+\usepackage{lipsum}                                                     % Einfuegen von zufälligen text 
+\usepackage{acronym}                                                    % Abkürzungsverzeichnis
+\usepackage[autocite=footnote,
+    style=apa,
+    backend=biber,
+    bibencoding=utf8,
+    bibwarn=true,
+    date=iso,
+    dateera=astronomical,
+    doi=false,
+    giveninits=false,                                                   % konfiguration von Bibliographie- und Zitationssystem
+    isbn=true,
+    maxcitenames=2,
+    seconds=true,
+    sortlocale=de
+    url=true,
+    urldate=iso,
+    ]{biblatex}
+\usepackage{graphicx}                                                   % Grafiken einfügen
+\usepackage{amsmath}                                                    % Erweiterte mathematische Funktionen
+\usepackage[toc]{glossaries}                                            % Glossar
+\usepackage{lipsum}
+\usepackage{enumitem}                                                   % auflistungen
+
+
+
+
+
+
+
+
+
+\addbibresource{literature/literature.bib} 

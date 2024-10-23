@@ -1,0 +1,40 @@
+
+\input{meta/praeambel.tex}
+
+
+
+\input{meta/gls.tex}
+
+\input{meta/authorinfo.tex}
+
+
+\begin{document}
+
+\pagenumbering{Roman}                                                       % Römische Seitenzahlen
+
+\input{content/titlepage.tex}
+\clearpage
+
+\tableofcontents                                                            % Inhaltsverzeichnis 
+\clearpage
+\listoffigures                                                              % figure verzeichnis
+\clearpage
+\listoftables                                                               % table verzeichnis
+\clearpage
+
+\pagenumbering{arabic}                                                      % Normale Seitenzahlen
+
+\input{content/introduction.tex}
+
+\input{content/conclusion.tex}
+
+\clearpage
+
+\printbibliography
+\clearpage
+
+\printglossary[title=Glossar, toctitle=List of terms]                       % Glossar
+
+
+
+\end{document}
