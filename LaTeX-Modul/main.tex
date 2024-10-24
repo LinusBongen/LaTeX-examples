@@ -1,4 +1,12 @@
 
+\documentclass[fontsize=12pt,
+    bibliography=totoc,
+    listof=totoc,
+    listof=entryprefix,
+    toc=sectionentrywithdots,
+    twoside=false,
+    ]{scrartcl}
+
 \input{meta/praeambel.tex}
 
 
@@ -22,6 +30,9 @@
 \listoftables                                                               % table verzeichnis
 \clearpage
 
+\printglossary[type=\acronymtype, title=Abkürzungsverzeichnis]              % Abkürzungsverzeichnis anzeigen
+\clearpage
+
 \pagenumbering{arabic}                                                      % Normale Seitenzahlen
 
 \input{content/introduction.tex}
@@ -38,3 +49,5 @@
 
 
 \end{document}
+
+
