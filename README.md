@@ -1,1 +1,3 @@
 # LaTeX-examples
+
+makeglossaries 

@@ -8,7 +8,7 @@
 
 \input{meta/praeamble.tex}
 \input{meta/authorinfo.tex}
-
+\input{meta/gls.tex}
 
 \begin{document}
 
@@ -31,6 +31,12 @@
 
 \input{content/Introduction.tex}
 \clearpage
+
+% Abkürzungsverzeichnis
+\printglossary[type=\acronymtype, title={Abkürzungsverzeichnis}]
+
+% Glossar
+\printglossary[title={Glossar}]
 
 
 \bibliographystyle{plain}
