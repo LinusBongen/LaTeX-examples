@@ -1,31 +1,22 @@
 % meta/praeamble.tex
 
-\usepackage{lipsum}                                                     % Einfuegen von zufälligen text 
-\usepackage[T1]{fontenc}                                                % Legt den Ausgabe-Zeichensatz fest.
-\usepackage[utf8]{inputenc}                                             % erweiterter Unicode-Satz
-\usepackage[ngerman]{babel}                                             % 
-\usepackage{hyperref}                                                   %
-\usepackage{a4wide}                                                     % 
-\usepackage{cite}                                                       % 
-\usepackage{graphicx}                                                   %
-\usepackage{listings}
-\usepackage{xcolor}
-
-% Code 
-\usepackage{listings} % Für Code-Darstellungen
-\usepackage{xcolor}   % Für Farbdefinitionen
-
-% Optionen für das listings-Paket
-\lstset{
-    basicstyle=\ttfamily, % Schriftart für den Code
-    keywordstyle=\color{blue}, % Farbe für Schlüsselwörter
-    commentstyle=\color{green!50!black}, % Farbe für Kommentare
-    stringstyle=\color{red}, % Farbe für Strings
-    escapeinside={(*@}{@*)}, % für mathescape
-}
 
 
 
+% \usepackage{a4wide}                                                     % Adjusts the page layout
+
+\usepackage[T1]{fontenc}                                                % Set the output font encoding
+\usepackage[utf8]{inputenc}                                             % Specify the input encoding
+\usepackage[ngerman]{babel}                                             % Language support (German)
+\usepackage{lipsum}                                                     % Insert random text for testing
+\usepackage{graphicx}                                                   % For including graphics
+\usepackage{listings}                                                   % For code listings
+\usepackage{xcolor}                                                     % For color support
+\usepackage{hyperref}                                                   % For hyperlinks
+\usepackage{csquotes}                                                   % For quotation management
+\usepackage[backend=biber, style=numeric]{biblatex}                    % Bibliography management
+
+% \usepackage{cite}                                                       % For citation management
 % komische angeben
 \setlength{\parindent}{10pt}
 \setlength{\parskip}{0.5\baselineskip}

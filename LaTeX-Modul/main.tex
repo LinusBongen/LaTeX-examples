@@ -1,14 +1,14 @@
 % main.tex
-
 \documentclass[12pt]{scrartcl}
-\input{meta/authorinfo.tex}
 \input{meta/praeamble.tex}
+
+
+\addbibresource{literature/literature.bib}          % Add your .bib file
+
+\input{meta/authorinfo.tex}
 \input{meta/commands.tex}
 
-
-
 \begin{document}
-
 
 \clearpage
 \input{content/title.tex}
@@ -17,23 +17,21 @@
 \pagenumbering{Roman}
 
 \clearpage
-\tableofcontents                                                        % Inhaltsverzeichnis
+\tableofcontents  % Table of contents
 
 \clearpage
-\listoffigures                                                          % Abbildungsverzeichnis
+\listoffigures    % List of figures
 
 \clearpage
-\listoftables                                                           % Tabellenverzeichnis
+\listoftables     % List of tables
 
 \clearpage
 \pagenumbering{arabic}
 
+\clearpage
+\input{content/Introduction.tex}  % Ensure filename is correct (e.g., "Introduction.tex")
 
 \clearpage
-\input{content/Introdaction.tex}
-
-\clearpage
-\bibliographystyle{ieeetr}
-\bibliography{literature/literature}
+\printbibliography  % Print bibliography
 
 \end{document}
