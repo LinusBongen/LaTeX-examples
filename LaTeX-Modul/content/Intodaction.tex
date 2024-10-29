@@ -15,6 +15,11 @@ Das kostet dann \$50.
 Text text text
 \normalfont % zurückschalten
 
+Laut \cite{nguyen_machine_2018}
+
+\myfigure{image.png}{Beispielbild}
+\myfigure{sinus_plot.eps}{Vektor datei}
+
 \begin{enumerate}
     \item Aufzählung
 \end{enumerate}
@@ -32,8 +37,26 @@ Text text text
 \end{description}
 
 
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|p{5cm}|p{5cm}|} 
+        \hline
+        \textbf{Vorteile} & \textbf{Nachteile} \\
+        \hline
+        Vorteil 1 & Nachteil 1 \\
+        Vorteil 2 & Nachteil 2 \\
+        Vorteil 3 & Nachteil 3 \\
+        \hline
+    \end{tabular}
+    \caption{Vor- und Nachteile einer bestimmten Sache}
+    \label{tab:beispiel}
+\end{table}
+
+
+
     \subsection{Subsection}
     \lipsum[1]
+    \ref{tab:beispiel}
     
         \subsubsection{Subsubsection}
-        \lipsum[1]
+        \lipsum[1] Der Satz geht weiter\dots

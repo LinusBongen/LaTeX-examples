@@ -1,16 +1,37 @@
 
 
 \documentclass[12pt]{scrartcl}
-
+\input{meta/authorinfo.tex}
 \input{meta/praeambel.tex}
+\input{meta/commands.tex}
 
 \begin{document}
 
 
+\clearpage
 \input{content/title.tex}
 
+\clearpage
+\pagenumbering{Roman}
 
+\clearpage
+\tableofcontents                                                        % Inhaltsverzeichnis
+
+\clearpage
+\listoffigures                                                          % Abbildungsverzeichnis
+
+\clearpage
+\listoftables                                                           % Tabellenverzeichnis
+
+\clearpage
+\pagenumbering{arabic}
+
+
+\clearpage
 \input{content/Intodaction.tex}
 
+\clearpage
+\bibliographystyle{ieeetr}
+\bibliography{literatur/literatur}
 
 \end{document}

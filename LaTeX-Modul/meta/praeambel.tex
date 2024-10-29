@@ -4,7 +4,23 @@
 \usepackage[ngerman]{babel}                                             % 
 \usepackage{hyperref}                                                   %
 \usepackage{a4wide}                                                     % 
+\usepackage{cite}                                                       % 
+\usepackage{graphicx}                                                   %
+\usepackage{listings}
+\usepackage{xcolor}
 
+% Code 
+\usepackage{listings} % Für Code-Darstellungen
+\usepackage{xcolor}   % Für Farbdefinitionen
+
+% Optionen für das listings-Paket
+\lstset{
+    basicstyle=\ttfamily, % Schriftart für den Code
+    keywordstyle=\color{blue}, % Farbe für Schlüsselwörter
+    commentstyle=\color{green!50!black}, % Farbe für Kommentare
+    stringstyle=\color{red}, % Farbe für Strings
+    escapeinside={(*@}{@*)}, % für mathescape
+}
 
 
 
