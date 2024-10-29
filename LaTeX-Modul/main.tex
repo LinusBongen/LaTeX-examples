@@ -14,6 +14,7 @@
 \input{content/title.tex}
 
 \pagenumbering{Roman}
+\setcounter{page}{1}
 
 \clearpage
 \tableofcontents
@@ -26,11 +27,14 @@
 
 \clearpage
 \pagenumbering{arabic}
+\setcounter{page}{1}
 
 \clearpage
 \input{content/Introduction.tex}
+\clearpage
 
 \clearpage
 \printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
 
 \end{document}
