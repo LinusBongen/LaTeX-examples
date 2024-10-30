@@ -1,7 +1,68 @@
-\begin{thebibliography}{1}
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem{nguyen_machine_2018}
-C.~N. Nguyen and O.~Zeigermann, {\em Machine {Learning} – kurz \& gut}.
-\newblock Apr. 2018.
 
-\end{thebibliography}
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{nguyen_machine_2018}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=c199489c81c30a12cf6bb7eed0228bb0}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Chi\bibnamedelima Nhan},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=095ef11896a433fd924c5c59159bc2ae}{%
+           family={Zeigermann},
+           familyi={Z\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{fullhash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{fullhashraw}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{bibnamehash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{authorbibnamehash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{authornamehash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{authorfullhash}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \strng{authorfullhashraw}{c139ec4ec5a56710ef8ec4cc1947b6e6}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-96010-192-5}
+      \field{month}{4}
+      \field{title}{Machine {Learning} kurz \& gut}
+      \field{urlday}{29}
+      \field{urlmonth}{10}
+      \field{urlyear}{2024}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\linus\\Zotero\\storage\\FQ6ANJYV\\5d5fc35a-b1b0-45b7-b20c-246bb0dd2d03.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://content.select.com/de/portal/media/view/5d5fc35a-b1b0-45b7-b20c-246bb0dd2d03?forceauth=1
+      \endverb
+      \verb{url}
+      \verb https://content.select.com/de/portal/media/view/5d5fc35a-b1b0-45b7-b20c-246bb0dd2d03?forceauth=1
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

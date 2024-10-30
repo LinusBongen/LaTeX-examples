@@ -15,21 +15,19 @@
 \usepackage{hyperref}                                                   % For hyperlinks
 \usepackage{csquotes}                                                   % For quotation management
 \usepackage[backend=biber, style=numeric]{biblatex}                    % Bibliography management
-\usepackage{glossaries}
+
+% glossaries
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\loadglsentries{meta/acro.tex}
+\loadglsentries{meta/gls.tex}
 \makeglossaries
 
-\newglossaryentry{latex}{
-    name=LaTeX,
-    description={A document preparation system}
-}
 
-\newglossaryentry{tex}{
-    name=TeX,
-    description={A typesetting system created by Donald Knuth}
-}
 
-% \usepackage{cite}                                                       % For citation management
-% komische angeben
+
+
+
 \setlength{\parindent}{10pt}
 \setlength{\parskip}{0.5\baselineskip}
 
