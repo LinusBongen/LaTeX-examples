@@ -1,6 +1,6 @@
 # LaTeX-examples
 
-## Informationen
+## Informationen über den Code
 
 ### Textbasierte Struktur
 - **Meta-Informationen**: Alle wichtigen Daten sind in der Datei `meta/authorinfo.tex` zu finden.
@@ -21,8 +21,9 @@
 - **Literatur**: `\cite{}`
 - **Abkürzung** (z.B.): `\zB`
 - **Abbildung**: `\myfigure{groesse=, dateiname=, beschreibung=}`
+- **Kommentar**: `\todo{}`
 
-# Ausführen der datei: 
+## Ausführen der datei: 
 
 `pdflatex main`
 
