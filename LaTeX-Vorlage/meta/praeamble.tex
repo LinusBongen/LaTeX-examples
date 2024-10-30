@@ -24,3 +24,9 @@
 \loadglsentries{meta/gls.tex}
 \makeglossaries
 
+% Header und footer
+\usepackage[automark, headsepline]{scrlayer-scrpage}
+\clearpairofpagestyles
+\ohead{\headmark}
+\automark[]{section}
+\ofoot{\pagemark}
