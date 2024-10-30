@@ -1,20 +1,21 @@
 % meta/praeamble.tex
 
-
-
-
-% \usepackage{a4wide}                                                     % Adjusts the page layout
-
 \usepackage[T1]{fontenc}                                                % Set the output font encoding
 \usepackage[utf8]{inputenc}                                             % Specify the input encoding
 \usepackage[ngerman]{babel}                                             % Language support (German)
+\usepackage[a4paper,
+    left=2cm,   	                            %   left=3cm,
+    right=3cm,	                                %   right=2.5cm,
+    top=2cm,	                                %   top=2cm,
+    bottom=2.5cm	                            %   bottom=2cm,
+  ]{geometry}
 \usepackage{lipsum}                                                     % Insert random text for testing
 \usepackage{graphicx}                                                   % For including graphics
 \usepackage{listings}                                                   % For code listings
 \usepackage{xcolor}                                                     % For color support
 \usepackage{hyperref}                                                   % For hyperlinks
 \usepackage{csquotes}                                                   % For quotation management
-\usepackage[backend=biber, style=numeric]{biblatex}                    % Bibliography management
+\usepackage[backend=biber, style=numeric]{biblatex}                     % Bibliography management
 
 % glossaries
 \usepackage[acronym]{glossaries}
@@ -22,13 +23,4 @@
 \loadglsentries{meta/acro.tex}
 \loadglsentries{meta/gls.tex}
 \makeglossaries
-
-
-
-
-
-
-\setlength{\parindent}{10pt}
-\setlength{\parskip}{0.5\baselineskip}
-
 

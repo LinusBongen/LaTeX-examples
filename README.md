@@ -1,3 +1,5 @@
 # LaTeX-examples
 
-makeglossaries 
+## Changes:
+
+meta/
