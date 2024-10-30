@@ -5,12 +5,12 @@
 \newcommand{\zB}{z.\,B.\,}
 
 % einfügen von dingen
-\newcommand{\myfigure}[2]{
+\newcommand{\myfigure}[3]{
     \begin{figure}[h]
         \centering
-        \includegraphics[width=0.5\textwidth]{img/#1}
-        \caption{#2}
-        \label{fig:#1}
+        \includegraphics[width=#1\textwidth]{img/#2}
+        \caption{#3}
+        \label{fig:#3}
     \end{figure}
 }
 
