@@ -10,30 +10,37 @@
 
 \begin{document}
 
-\clearpage
 \input{content/title.tex}
 
 \pagenumbering{Roman}
 \setcounter{page}{1}
 
-\clearpage
+\newpage
+
 \tableofcontents
 
-\clearpage
+\newpage
+
 \listoffigures
+\addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
-\clearpage
+\newpage
+
 \printglossary[type=acronym, title={Abkürzungsverzeichnis}]
+\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 
-\clearpage
+\newpage
+
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
 \listoftables
 
-\clearpage
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
+\newpage
+
 %%%%%%%%%% Chapters %%%%%%%%%%
-\clearpage
+
 \input{content/Introduction.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -43,5 +50,7 @@
 
 \clearpage
 \printglossary[type=main, title={Glossar}]
+
+\input{content/Declaration-of-Academic-Integrity.tex}
 
 \end{document}
