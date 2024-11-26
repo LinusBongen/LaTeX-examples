@@ -16,7 +16,7 @@
 - **Überschrift**: `\section{}`, `\subsection{}` und `\subsubsection{}`
 - **Hervorheben**: `\highlight{}`
 - **Hervorheben zwei**: `\highlightB{}`
-- **Abkürzungen**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`
+- **Abkürzungen**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`, `\acrshort{}`
 - **Glossar**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`, `\acrshort{}`
 - **Fußnote**: `\footnote{}`
 - **Literatur**: `\cite{}`
