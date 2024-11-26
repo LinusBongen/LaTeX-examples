@@ -17,7 +17,7 @@
 - **Hervorheben**: `\highlight{}`
 - **Hervorheben zwei**: `\highlightB{}`
 - **Abkürzungen**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`
-- **Glossar**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`
+- **Glossar**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`, `\acrshort{}`
 - **Fußnote**: `\footnote{}`
 - **Literatur**: `\cite{}`
 - **Abkürzung** (z.B.): `\zB`
