@@ -21,7 +21,7 @@
 - **Fußnote**: `\footnote{}`
 - **Literatur**: `\cite{}`
 - **Abkürzung** (z.B.): `\zB`
-- **Abbildung**: `\myfigure{groesse=}{dateiname=}{beschreibung=}`
+- **Abbildung**: `\myFigure{groesse=}{dateiname=}{beschreibung=}`
 - **Kommentar**: `\todo{}`
 
 ## Ausführen der datei: 
