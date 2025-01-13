@@ -13,9 +13,10 @@
 - **Pakete**: Alle erforderlichen Pakete werden in der Präambel des Dokuments hinzugefügt.
 
 ### Alle wichtigen Befehle auf einen Blick
-- **Überschrift**: `\section{}`, `\subsection{}` und `\subsubsection{}`
+- **Überschrift**: `\section{}`, `\subsection{}`, `\subsubsection{}`
 - **Hervorheben**: `\highlight{}`
 - **Hervorheben zwei**: `\highlightB{}`
+- **Anführungszeichen**: `\enquote{}`
 - **Abkürzungen**: `\acrlong{}`, `\acrshort{}`, `\acrfull{}`
 - **Glossar**: `\gls{}`, `\Gls{}`, `\glspl{}`, `\Glspl{}`, `\acrshort{}`
 - **Fußnote**: `\footnote{}`
