@@ -12,45 +12,73 @@
 
 \input{content/title.tex}
 
+\clearpage
+
+\input{content/Declaration-of-Academic-Integrity.tex}
+\addcontentsline{toc}{section}{Eidesstattliche Erklärung}
+
+\clearpage
+
+\input{content/Abstract.tex}
+\addcontentsline{toc}{section}{Abstract}
+
+\clearpage
+
+\input{content/Acknowledgments.tex}
+\addcontentsline{toc}{section}{Danksagung}
+
+\clearpage
+
 \pagenumbering{Roman}
 \setcounter{page}{1}
 
-\newpage
-
 \tableofcontents
 
-\newpage
+\clearpage
 
 \listoffigures
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
-\newpage
+\clearpage
 
 \printglossary[type=acronym, title={Abkürzungsverzeichnis}]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 
-\newpage
+\clearpage
 
-\addcontentsline{toc}{section}{Tabellenverzeichnis}
 \listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+\clearpage
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\newpage
+\clearpage
 
 %%%%%%%%%% Chapters %%%%%%%%%%
 
-\input{content/Introduction.tex}
+\input{content/chapter-1-Introduction.tex}
+\clearpage
+\input{content/chapter-2-Conclusion.tex}
+\clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
+
 \printbibliography
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 
 \clearpage
-\printglossary[type=main, title={Glossar}]
 
-\input{content/Declaration-of-Academic-Integrity.tex}
+\printglossary[type=main, title={Glossar}]
+\addcontentsline{toc}{section}{Glossar}
+
+%%%%%%%%%% Appendices %%%%%%%%%%
+\input{content/Appendices-A.tex}
+\addcontentsline{toc}{section}{Appendix A}
+\clearpage
+\input{content/Appendices-B.tex}
+\addcontentsline{toc}{section}{Appendix B}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
