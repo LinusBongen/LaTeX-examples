@@ -1,0 +1,61 @@
+{
+    "files.exclude": {
+      "**/*.log": true,            // Alle .log-Dateien ausblenden
+      "**/*.aux": true,            // .aux-Dateien ausblenden
+      "**/*.lof": true,            // .lof-Dateien ausblenden
+      "**/*.lot": true,            // .lot-Dateien ausblenden
+      "**/*.fls": true,            // .fls-Dateien ausblenden
+      "**/*.out": true,            // .out-Dateien ausblenden
+      "**/*.toc": true,            // .toc-Dateien ausblenden
+      "**/*.toc1": true,           // .toc1-Dateien ausblenden
+      "**/*.fmt": true,            // .fmt-Dateien ausblenden
+      "**/*.fot": true,            // .fot-Dateien ausblenden
+      "**/*.cb": true,             // .cb-Dateien ausblenden
+      "**/*.cb2": true,            // .cb2-Dateien ausblenden
+      "**/*.acn": true,            // .acn-Dateien ausblenden
+      "**/*.acr": true,            // .acr-Dateien ausblenden
+      "**/*.alg": true,            // .alg-Dateien ausblenden
+      "**/*.bbl": true,            // .bbl-Dateien ausblenden
+      "**/*.fdb_latexmk": true,    // .fdb_latexmk-Dateien ausblenden
+      "**/*.glg": true,            // .glg-Dateien ausblenden
+      "**/*.glo": true,            // .glo-Dateien ausblenden
+      "**/*.gls": true,            // .gls-Dateien ausblenden
+      "**/*.ist": true,            // .ist-Dateien ausblenden
+      "**/*.loc": true,            // .loc-Dateien ausblenden
+      "**/*.run.xml": true,        // .run.xml-Dateien ausblenden
+      "**/*.synctex.gz": true,     // .synctex.gz-Dateien ausblenden
+      "**/*.bcf": true,            // .bcf-Dateien ausblenden
+      "**/*.blg": true,            // .blg-Dateien ausblenden
+      "**/node_modules": true      // node_modules Ordner ausblenden
+    },
+    "search.exclude": {
+      "**/*.log": true,            // .log-Dateien in der Suche ausblenden
+      "**/*.aux": true,            // .aux-Dateien in der Suche ausblenden
+      "**/*.lof": true,            // .lof-Dateien in der Suche ausblenden
+      "**/*.lot": true,            // .lot-Dateien in der Suche ausblenden
+      "**/*.fls": true,            // .fls-Dateien in der Suche ausblenden
+      "**/*.out": true,            // .out-Dateien in der Suche ausblenden
+      "**/*.toc": true,            // .toc-Dateien in der Suche ausblenden
+      "**/*.toc1": true,           // .toc1-Dateien in der Suche ausblenden
+      "**/*.fmt": true,            // .fmt-Dateien in der Suche ausblenden
+      "**/*.fot": true,            // .fot-Dateien in der Suche ausblenden
+      "**/*.cb": true,             // .cb-Dateien in der Suche ausblenden
+      "**/*.cb2": true,            // .cb2-Dateien in der Suche ausblenden
+      "**/*.acn": true,            // .acn-Dateien in der Suche ausblenden
+      "**/*.acr": true,            // .acr-Dateien in der Suche ausblenden
+      "**/*.alg": true,            // .alg-Dateien in der Suche ausblenden
+      "**/*.bbl": true,            // .bbl-Dateien in der Suche ausblenden
+      "**/*.fdb_latexmk": true,    // .fdb_latexmk-Dateien in der Suche ausblenden
+      "**/*.glg": true,            // .glg-Dateien in der Suche ausblenden
+      "**/*.glo": true,            // .glo-Dateien in der Suche ausblenden
+      "**/*.gls": true,            // .gls-Dateien in der Suche ausblenden
+      "**/*.ist": true,            // .ist-Dateien in der Suche ausblenden
+      "**/*.loc": true,            // .loc-Dateien in der Suche ausblenden
+      "**/*.run.xml": true,        // .run.xml-Dateien in der Suche ausblenden
+      "**/*.synctex.gz": true,     // .synctex.gz-Dateien in der Suche ausblenden
+      "**/*.bcf": true,            // .bcf-Dateien in der Suche ausblenden
+      "**/*.blg": true,            // .blg-Dateien in der Suche ausblenden
+      "**/node_modules": true      // node_modules in der Suche ausblenden
+    }
+  }
+  
