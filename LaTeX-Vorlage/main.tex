@@ -15,24 +15,26 @@
 \clearpage
 
 \input{content/Declaration-of-Academic-Integrity.tex}
-\addcontentsline{toc}{section}{Eidesstattliche Erklärung}
+% \addcontentsline{toc}{section}{Eidesstattliche Erklärung}
+\thispagestyle{empty}
 
 \clearpage
 
 \input{content/Abstract.tex}
-\addcontentsline{toc}{section}{Abstract}
+% \addcontentsline{toc}{section}{Abstract}
+\thispagestyle{empty}
 
 \clearpage
 
 \input{content/Acknowledgments.tex}
-\addcontentsline{toc}{section}{Danksagung}
+% \addcontentsline{toc}{section}{Danksagung}
+\thispagestyle{empty}
 
 \clearpage
+\tableofcontents
 
 \pagenumbering{Roman}
-\setcounter{page}{1}
-
-\tableofcontents
+\setcounter{page}{1}            % Reset page counter
 
 \clearpage
 
@@ -72,6 +74,8 @@
 
 \printglossary[type=main, title={Glossar}]
 \addcontentsline{toc}{section}{Glossar}
+
+\clearpage
 
 %%%%%%%%%% Appendices %%%%%%%%%%
 \input{content/Appendices-A.tex}
