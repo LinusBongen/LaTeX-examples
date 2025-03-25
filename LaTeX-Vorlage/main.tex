@@ -42,7 +42,6 @@
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
 \clearpage
-
 \printglossary[type=acronym, title={Abkürzungsverzeichnis}]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 
@@ -58,14 +57,18 @@
 
 \clearpage
 
+\input{content/Introduction.tex}
+\clearpage
+
 %%%%%%%%%% Chapters %%%%%%%%%%
 
-\input{content/chapter-1-Introduction.tex}
-\clearpage
-\input{content/chapter-2-Conclusion.tex}
+\input{content/chapter-1.tex}
 \clearpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{content/conclusion.tex}
+\clearpage
 
 \printbibliography
 \addcontentsline{toc}{section}{Literaturverzeichnis}
