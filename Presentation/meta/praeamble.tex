@@ -1,0 +1,55 @@
+
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{lipsum}
+
+% glossaries
+\usepackage[acronym]{glossaries}
+\loadglsentries{meta/acro.tex}
+\loadglsentries{meta/gls.tex}
+\makeglossaries
+
+
+% Headerline for Titlepage
+\defbeamertemplate*{headline}{with logo}{
+    \begin{beamercolorbox}[wd=\paperwidth,ht=1.2cm,dp=0.2cm,leftskip=1cm,rightskip=1cm]{headline}
+        \begin{minipage}[t]{0.7\paperwidth}
+            \vspace{0.1cm}
+            \raggedright
+            \large \insertsection
+        \end{minipage}%
+        \begin{minipage}[t]{0.25\paperwidth}
+            \vspace{-0.3cm}
+            \raggedleft
+            \mylogo
+        \end{minipage}
+        \vspace{0.05cm}
+        \hrule height 0.02cm
+    \end{beamercolorbox}
+}
+
+% Headerline
+\defbeamertemplate*{headline}{without logo}{
+    \begin{beamercolorbox}[wd=\paperwidth,ht=1.5cm,dp=0.3cm,leftskip=1cm,rightskip=1cm]{headline}
+        \vspace{0.2cm}
+        \Large \insertsection
+        \vspace{0.1cm}
+        \hrule height 0.03cm
+    \end{beamercolorbox}
+}
+
+% Footline
+\defbeamertemplate*{footline}{custom footer}{
+    \hrule height 0.03cm
+    \vspace{0.2cm}
+    \begin{beamercolorbox}[wd=\paperwidth,ht=0.25cm,dp=0.5cm,leftskip=0cm,rightskip=0.5cm]{author in head/foot}
+        \begin{minipage}[t]{\dimexpr0.5\paperwidth-0.25cm\relax}
+            \hspace{1cm}\raggedright \textcolor{red}{\textbf{Hochschule Düsseldorf} \\ 
+            \hspace{1cm}\raggedright  University of Applied Sciences}
+        \end{minipage}%
+        \begin{minipage}[t]{\dimexpr0.5\paperwidth-0.75cm\relax}
+            \raggedleft \textcolor{black}{\insertframenumber{} }
+        \end{minipage}
+    \end{beamercolorbox}
+}
+
