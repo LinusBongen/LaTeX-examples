@@ -180,3 +180,39 @@ Java
 - **unendlich:** `\infty`
 - **Texte einfügen:** `\text{}`
 
+## Presentation
+
+- **Beamer-Dokument starten:**  
+    ```
+    \documentclass{beamer}
+    ```
+- **Folie (Frame) erstellen:**  
+    ```
+    \begin{frame}
+        Inhalt der Folie
+    \end{frame}
+    ```
+- **Stichpunktliste:**  
+    ```
+    \begin{itemize}
+        \item Erster Punkt
+        \item Zweiter Punkt
+    \end{itemize}
+    ```
+- **Hervorhebung:**  
+    ```
+    \alert{Wichtiger Text}
+    ```
+- **Abschnittstitel:**  
+    ```
+    \section{Abschnittsname}
+    ```
+
+    **Bild einfügen**
+    ```
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[height=\dimexpr\paperheight - 3cm\relax]{images/logo.png}
+        \label{fig:board-visualization-page1}
+    \end{figure}
+    ```
