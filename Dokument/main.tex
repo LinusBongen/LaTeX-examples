@@ -12,29 +12,25 @@
 
 \input{content/title.tex}
 
-\clearpage
-
-\input{content/Declaration-of-Academic-Integrity.tex}
-% \addcontentsline{toc}{section}{Eidesstattliche Erklärung}
 \thispagestyle{empty}
 
 \clearpage
 
 \input{content/Abstract.tex}
-% \addcontentsline{toc}{section}{Abstract}
+\addcontentsline{toc}{section}{Abstract}
 \thispagestyle{empty}
 
 \clearpage
 
 \input{content/Acknowledgments.tex}
-% \addcontentsline{toc}{section}{Danksagung}
+\addcontentsline{toc}{section}{Danksagung}
 \thispagestyle{empty}
 
 \clearpage
 \tableofcontents
 
 \pagenumbering{Roman}
-\setcounter{page}{1}            % Reset page counter
+\setcounter{page}{1}
 
 \clearpage
 
@@ -42,13 +38,23 @@
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
 \clearpage
-\printglossary[type=acronym, title={Abkürzungsverzeichnis}]
+
+\listoftables
+\addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+\clearpage
+\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 
 \clearpage
 
-\listoftables
-\addcontentsline{toc}{section}{Tabellenverzeichnis}
+\printglossary[type=symbols,title=Symbolverzeichnis]
+\addcontentsline{toc}{section}{Symbolverzeichnis}
+
+\clearpage
+
+\printglossary[type=main, title={Glossar}]
+\addcontentsline{toc}{section}{Glossar}
 
 \clearpage
 
@@ -68,6 +74,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{content/conclusion.tex}
+
 \clearpage
 
 \printbibliography
@@ -75,17 +82,19 @@
 
 \clearpage
 
-\printglossary[type=main, title={Glossar}]
-\addcontentsline{toc}{section}{Glossar}
-
-\clearpage
-
 %%%%%%%%%% Appendices %%%%%%%%%%
-\input{content/Appendices-A.tex}
-\addcontentsline{toc}{section}{Appendix A}
+\appendix
+
+\section*{Anhang}
+\addcontentsline{toc}{section}{Anhang}
+
+\input{content/Appendix/A_Appendix.tex}
 \clearpage
-\input{content/Appendices-B.tex}
-\addcontentsline{toc}{section}{Appendix B}
+
+\input{content/Appendix/B_Appendix.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{content/Declaration-of-Academic-Integrity.tex}
+\addcontentsline{toc}{section}{Eidesstattliche Erklärung}
 
 \end{document}

@@ -26,8 +26,11 @@
     "**/*.synctex.gz": true,
     "**/*.bcf": true,
     "**/*.blg": true,
-    "**/*.nav": true,            // .nav-Dateien ausblenden
-    "**/*.snm": true,            // .snm-Dateien ausblenden
+    "**/*.nav": true,
+    "**/*.snm": true,
+    "**/*.syg": true,
+    "**/*.syi": true,
+    "**/*.slg": true,
     "**/node_modules": true
   },
   "search.exclude": {
@@ -57,8 +60,11 @@
     "**/*.synctex.gz": true,
     "**/*.bcf": true,
     "**/*.blg": true,
-    "**/*.nav": true,            // .nav-Dateien in der Suche ausblenden
-    "**/*.snm": true,            // .snm-Dateien in der Suche ausblenden
+    "**/*.nav": true,
+    "**/*.snm": true,
+    "**/*.syg": true,
+    "**/*.syi": true,
+    "**/*.slg": true,
     "**/node_modules": true
   }
 }

@@ -17,12 +17,19 @@
 \usepackage{csquotes}                                                   % For quotation management
 \usepackage[backend=biber, style=numeric]{biblatex}                     % Bibliography management
 \usepackage{enumitem}                                                   % For customizing lists
-\usepackage{todonotes}
+\setlength{\marginparwidth}{2cm}                                        % For todonotes
+\usepackage{todonotes}                                                  % For todo notes         
+\usepackage{appendix}                                                   % For appendix management
+\usepackage{chngcntr}                                                   % Change counter behavior
+\usepackage{booktabs}                                                   % For better tables
+\usepackage{array}                                                      % For better tables
+\usepackage[acronym,toc,numberedsection]{glossaries}                    % For glossaries and acronyms
 
 % glossaries
 \usepackage[acronym]{glossaries}
 \loadglsentries{meta/acro.tex}
 \loadglsentries{meta/gls.tex}
+\newglossary[slg]{symbols}{syi}{syg}{List of Symbols}
 \makeglossaries
 
 % Header und footer
@@ -35,3 +42,4 @@
 % math
 \usepackage{amsmath}
 \numberwithin{equation}{section}
+
