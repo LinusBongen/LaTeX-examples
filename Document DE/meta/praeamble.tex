@@ -2,7 +2,7 @@
 
 \usepackage[T1]{fontenc}                                                % Set the output font encoding
 \usepackage[utf8]{inputenc}                                             % Specify the input encoding
-\usepackage[ngerman]{babel}                                             % Language support (German=ngerman, English=english)
+\usepackage[english]{babel}                                             % Language support (German=ngerman, English=english)
 \usepackage[a4paper,
     left=2cm,   	                            %   left=3cm,
     right=3cm,	                                %   right=2.5cm,
@@ -23,12 +23,12 @@
 \usepackage{chngcntr}                                                   % Change counter behavior
 \usepackage{booktabs}                                                   % For better tables
 \usepackage{array}                                                      % For better tables
-\usepackage[acronym,toc,numberedsection]{glossaries}                    % For glossaries and acronyms
+\usepackage[acronym,toc]{glossaries}                    % For glossaries and acronyms
 
 % glossaries
 \usepackage[acronym]{glossaries}
 \loadglsentries{meta/acro.tex}
-\loadglsentries{meta/gls.tex}
+\loadglsentries{meta/glossar.tex}
 \newglossary[slg]{symbols}{syi}{syg}{List of Symbols}
 \makeglossaries
 

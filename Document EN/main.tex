@@ -1,0 +1,98 @@
+% main.tex
+\documentclass[12pt]{scrartcl}
+\input{meta/praeamble.tex}
+
+\addbibresource{literature/literature.bib}
+
+\input{meta/authorinfo.tex}
+\input{meta/commands.tex}
+\input{meta/symbols.tex}
+
+\begin{document}
+
+\input{content/title.tex}
+
+\newpage
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+\input{content/abstract.tex}
+
+\newpage
+
+\input{content/acknowledgments.tex}
+
+\newpage
+
+% \renewcommand{\contentsname}{Inhaltsverzeichnis}
+\tableofcontents
+
+\newpage
+
+% \renewcommand{\listfigurename}{Abbildungsverzeichnis}
+\listoffigures
+\addcontentsline{toc}{section}{List of Figures}
+
+\newpage
+
+% \renewcommand{\listtablename}{Tabellenverzeichnis}
+\listoftables
+\addcontentsline{toc}{section}{List of Tables}
+
+\newpage
+
+% \printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
+\printglossary[type=\acronymtype]
+
+\newpage
+
+% \printglossary[type=symbols,title=Symbolverzeichnis]
+\printglossary[type=symbols]
+
+\newpage
+
+% \printglossary[type=main, title={Glossar}]
+\printglossary[type=main]
+
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%% Chapters %%%%%%%%%%
+
+\input{content/chapter-1-Introduction.tex}
+\newpage
+
+\input{content/chapter-2.tex}
+\newpage
+
+\input{content/conclusion.tex}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\printbibliography
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\newpage
+
+%%%%%%%%%% Appendices %%%%%%%%%%
+\appendix
+
+\renewcommand{\thesection}{\Alph{section}}
+% \addcontentsline{toc}{section}{Appendix}
+\addcontentsline{toc}{section}{Anhang}
+
+\input{content/Appendix/appendix-A.tex}
+\newpage
+
+\input{content/Appendix/appendix-B.tex}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{content/Declaration-of-Academic-Integrity.tex}
+\addcontentsline{toc}{section}{Declaration of Academic Integrity}
+
+\end{document}

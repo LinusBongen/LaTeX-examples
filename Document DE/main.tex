@@ -2,96 +2,92 @@
 \documentclass[12pt]{scrartcl}
 \input{meta/praeamble.tex}
 
-
 \addbibresource{literature/literature.bib}
 
 \input{meta/authorinfo.tex}
 \input{meta/commands.tex}
+\input{meta/symbols.tex}
 
 \begin{document}
 
 \input{content/title.tex}
 
-\thispagestyle{empty}
-
-\clearpage
-
-\input{content/Abstract.tex}
-\addcontentsline{toc}{section}{Abstract}
-\thispagestyle{empty}
-
-\clearpage
-
-\input{content/Acknowledgments.tex}
-\addcontentsline{toc}{section}{Danksagung}
-\thispagestyle{empty}
-
-\clearpage
-\tableofcontents
+\newpage
 
 \pagenumbering{Roman}
 \setcounter{page}{1}
 
-\clearpage
+\input{content/abstract.tex}
 
+\newpage
+
+\input{content/acknowledgments.tex}
+
+\newpage
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\tableofcontents
+
+\newpage
+
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
 \listoffigures
 \addcontentsline{toc}{section}{Abbildungsverzeichnis}
 
-\clearpage
+\newpage
 
+\renewcommand{\listtablename}{Tabellenverzeichnis}
 \listoftables
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
 
-\clearpage
-\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
-\addcontentsline{toc}{section}{Abkürzungsverzeichnis}
+\newpage
 
-\clearpage
+\printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
+
+\newpage
 
 \printglossary[type=symbols,title=Symbolverzeichnis]
-\addcontentsline{toc}{section}{Symbolverzeichnis}
 
-\clearpage
+\newpage
 
 \printglossary[type=main, title={Glossar}]
-\addcontentsline{toc}{section}{Glossar}
 
-\clearpage
+\newpage
 
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
-\clearpage
-
 %%%%%%%%%% Chapters %%%%%%%%%%
 
 \input{content/chapter-1-Introduction.tex}
-\clearpage
+\newpage
 
 \input{content/chapter-2.tex}
-\clearpage
+\newpage
+
+\input{content/conclusion.tex}
+\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{content/conclusion.tex}
-
-\clearpage
-
+\renewcommand{\refname}{Literaturverzeichnis}
 \printbibliography
 \addcontentsline{toc}{section}{Literaturverzeichnis}
 
-\clearpage
+\newpage
 
 %%%%%%%%%% Appendices %%%%%%%%%%
 \appendix
 
-\section*{Anhang}
+\renewcommand{\thesection}{\Alph{section}}
+% \addcontentsline{toc}{section}{Appendix}
 \addcontentsline{toc}{section}{Anhang}
 
-\input{content/Appendix/A_Appendix.tex}
-\clearpage
+\input{content/Appendix/appendix-A.tex}
+\newpage
 
-\input{content/Appendix/B_Appendix.tex}
+\input{content/Appendix/appendix-B.tex}
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{content/Declaration-of-Academic-Integrity.tex}
