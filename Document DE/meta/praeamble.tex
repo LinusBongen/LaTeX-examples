@@ -2,7 +2,7 @@
 
 \usepackage[T1]{fontenc}                                                % Set the output font encoding
 \usepackage[utf8]{inputenc}                                             % Specify the input encoding
-\usepackage[english]{babel}                                             % Language support (German=ngerman, English=english)
+\usepackage[main=ngerman,english]{babel} % Deutsch (neu) als Hauptsprache, Englisch zusätzlich                                             % Language support (German=ngerman, English=english)
 \usepackage[a4paper,
     left=2cm,   	                            %   left=3cm,
     right=3cm,	                                %   right=2.5cm,
@@ -43,3 +43,10 @@
 \usepackage{amsmath}
 \numberwithin{equation}{section}
 
+\DefineBibliographyStrings{english}{
+  andothers = {et al\adddot}
+}
+% falls du ngerman nutzt:
+\DefineBibliographyStrings{ngerman}{
+  andothers = {et al\adddot}
+}
