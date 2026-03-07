@@ -1,0 +1,99 @@
+% main.tex
+\documentclass[12pt]{scrartcl}
+\input{meta/praeamble.tex}
+
+\addbibresource{literature/literature.bib}
+
+\input{meta/authorinfo.tex}
+\input{meta/commands.tex}
+\input{meta/symbols.tex}
+
+\begin{document}
+
+\input{content/title.tex}
+
+\newpage
+
+\pagenumbering{Roman}
+\setcounter{page}{1}
+
+% \input{content/abstract.tex}
+
+% \newpage
+
+% \input{content/acknowledgments.tex}
+
+% \newpage
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\tableofcontents
+
+% \newpage
+
+% \renewcommand{\listfigurename}{Abbildungsverzeichnis}
+% \listoffigures
+% \addcontentsline{toc}{section}{Abbildungsverzeichnis}
+
+% \newpage
+
+% \renewcommand{\listtablename}{Tabellenverzeichnis}
+% \listoftables
+% \addcontentsline{toc}{section}{Tabellenverzeichnis}
+
+% \newpage
+
+% \printglossary[type=\acronymtype,title=Abkürzungsverzeichnis]
+
+% \newpage
+
+% \printglossary[type=symbols,title=Symbolverzeichnis]
+
+% \newpage
+
+% \printglossary[type=main, title={Glossar}]
+
+\newpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%% Chapters %%%%%%%%%%
+
+% \input{content/chapter-0-fragen.tex}
+% \newpage
+
+\input{content/chapter-1-Vorschlag-1.tex}
+
+% \input{content/chapter-2-vorschlag-2.tex}
+% \newpage
+
+% \input{content/conclusion.tex}
+% \newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \renewcommand{\refname}{Literaturverzeichnis}
+% \printbibliography
+% \addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\newpage
+\markboth{Anhang}{Anhang A}
+
+%%%%%%%%%% Appendices %%%%%%%%%%
+\appendix
+
+\renewcommand{\thesection}{\Alph{section}}
+\addcontentsline{toc}{section}{Appendix}
+\addcontentsline{toc}{section}{Anhang}
+
+% \input{content/Appendix/appendix-A.tex}
+% \newpage
+
+% \input{content/Appendix/appendix-B.tex}
+% \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \input{content/Declaration-of-Academic-Integrity.tex}
+% \addcontentsline{toc}{section}{Eidesstattliche Erklärung}
+
+\end{document}

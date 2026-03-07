@@ -1,0 +1,54 @@
+% content/Appendices-A.tex
+
+
+% \section{Anhang} \label{app:appendixA}
+
+\begin{landscape}
+
+\begin{figure}[p]
+    \centering
+    % Stark reduzierter, kompakter Zeitplan (Start: KW 48/2025, Ende: KW 06/2026)
+    \begin{ganttchart}[
+        x unit=1.3cm,
+        y unit chart=0.7cm,
+        vgrid,
+        hgrid,
+        bar height=0.6,
+        bar label font=\scriptsize\color{white},      % Schrift weiß, kleiner
+        bar label node/.style={anchor=center, inner sep=2pt}, % Standard: innen zentriert
+        bar/.append style={fill=black!60},            % dunkle Balkenfarbe für Kontrast
+        % Beschriftung rechts vom Balken: 5pt Abstand ab Balkenrand
+        label right/.style={bar label node/.style={anchor=west, inner sep=0pt, xshift=5pt}, bar label font=\scriptsize\color{black}},
+        group label node/.append style={anchor=east, xshift=-1.0cm},
+        title label font=\bfseries
+    ]{96}{111} % Start bei KW48 (48*2=96). Ende so gewählt, dass KW06/2026 (6 Wochen) abgedeckt ist.
+        \gantttitle{2025}{6} \gantttitle{2026}{10} \\ % 2025: KW48-52, 2026: KW01-06
+        \gantttitlelist{50,51,52}{2} \gantttitlelist{1,2,3,4,5}{2} \\
+
+        
+        \ganttgroup[inline]{Recherche Phase}{96}{101} \ganttnewline
+        \ganttbar[inline]{THz-Spektrum}{96}{97} \ganttnewline
+        \ganttbar[inline]{Spektroskopie}{97}{99} \ganttnewline
+        \ganttbar[inline]{Dermatologie}{100}{101} \ganttnewline
+
+        \ganttgroup[inline]{Experiment}{102}{103} \ganttnewline
+        \ganttbar[inline]{Dokumentation}{102}{111} \ganttnewline
+        \ganttbar[name=mp,bar/.append style={fill=black!60}]{ }{102}{102} \ganttnewline
+        \node[anchor=west, font=\scriptsize\color{black}] at (mp.east) {Messprotokoll-Entwicklung};
+        \ganttbar[name=mp2,bar/.append style={fill=black!60}]{ }{103}{103} \ganttnewline
+        \node[anchor=west, font=\scriptsize\color{black}] at (mp2.east) {Durchführung};
+
+        \ganttgroup[inline]{Auswertungs Phase}{104}{109} \ganttnewline
+        \ganttbar[name=ga,bar/.append style={fill=black!60}]{ }{104}{104} \ganttnewline
+        \node[anchor=west, font=\scriptsize\color{black}] at (ga.east) {Graphische Auswertung};
+        \ganttbar[inline]{Analyse der Messungen}{105}{109} \ganttnewline
+        \ganttbar[inline]{Zusammenfassen}{110}{111} \ganttnewline
+        \ganttbar[inline]{Vortrag vorbereiten}{110}{111} \ganttnewline
+    \end{ganttchart}
+    \caption{Kompakter Wochenplan, jede Woche entspricht einem Arbeitsumfang von 40 Stunden.}
+    \label{fig:gantt}
+\end{figure}
+
+
+\end{landscape}
+
