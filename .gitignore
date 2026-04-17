@@ -1,3 +1,10 @@
+## Quarto and python
+*__pycache__/
+*/venv/
+*/slideshow_files/
+*app.py
+*slideshow.html
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
